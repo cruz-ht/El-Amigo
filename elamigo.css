@@ -19,12 +19,12 @@ div{
     background: url(transparent_white.png);
     text-align: center;
     margin: 20px;
+    width: 540px;
 }
 
 .introduction{
     border: 10px solid black;
-    width: 60vh;
-    
+    padding: 20px;
 }
 h1 {
 
@@ -32,7 +32,7 @@ h1 {
     font-weight: normal;
 }
 p {
-    color:grey;
+    color:black;
     font-size: 20px;
     font-weight: lighter;
 }
@@ -43,31 +43,57 @@ p {
 
 .form{
     border: 10px solid white;
-    width: 60vh;
-    text-align: left;
+    margin: 0 20px;
 
+    h2{
+        font-weight: lighter;
+    }
+
+    p{
+        font-size: 17px;
+    }
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0 0;
 
 }
 
 form label{
-    display: block;
+
     font-size: 12px;
     font-weight: bold;
     color: white;
     background-color: darkgray;
     padding:5px 0 0 5px;
+    margin: 0 90px;
+    width: 290px;
+    text-align: left;
 
 }
 form input{
-    display: block;
+
     font-family: Georgia,Times,serif;
     font-style: italic;
     font-size: 17px;
     font-weight: lighter;
-    width: 50vh;
-    padding: 4px 0px;
-    margin: 0 0 10px;
+    padding: 4px 5px;
+    margin-bottom: 10px;
+    border:none;
+    width: 290px;
+
+
 }
+
+.btn{
+    
+
+}
+
 
 form input[type=submit] {
     background-color: brown;
